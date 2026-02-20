@@ -3,7 +3,7 @@ body{
     color: #333333;
 }
 main{
-    padding: 2.5rem 0;
+    padding: 2.5rem 0 2.5rem ;
     max-width: 1360px;
     margin: 0 auto;
 }
@@ -15,7 +15,7 @@ main{
     color:#ffffff ;
     font-weight: 400;
     padding: 10px 20px;
-    transition: backgroud-color 0.3s, border 0.3s;
+    transition: background-color 0.3s, border 0.3s;
 }
 .btn-outline{
     background-color: transparent;
@@ -30,4 +30,9 @@ main{
     background-color: #6329A2;
     color: #ffffff;
     border: #6329A2;
+}
+.footer-copy{
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 20px 0;
 }

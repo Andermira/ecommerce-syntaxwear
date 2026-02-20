@@ -1,1 +1,77 @@
 /* footer.css */
+.site-footer {
+    background-color: #333333;
+    color: #ffffff;
+
+}
+
+.footer-content {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 3.125rem;
+}
+
+.footer-nav ul {
+    display: flex;
+    gap: 1.25rem;
+}
+
+.footer-nav ul ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-nav strong {
+    color: #ededed;
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    display: block;
+    font-weight: 400;
+}
+
+.footer-nav li a{
+    color: #ffffff;
+}
+.footer-nav li a:hover {
+    text-decoration: underline;
+}
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+}
+.newsletter-email{
+    border-radius: 1.875rem;
+    border: none;
+    background-color: #ffffff;
+    padding: 0.75rem 1.25rem;
+    width: 100%;
+    color: #333333;
+    font-size: 1rem;
+}
+.newsletter-form {
+    border-radius: 30px;
+    color: #aaaaaa;
+    padding: 0.75rem 1.25rem;
+    width: 21.5rem;
+
+}
+.footer-social ul{
+    display: flex;
+    gap: 1.25rem;
+}
+.footer-social span{
+    margin-bottom: 1rem;
+    display: block;
+}
+.footer-social li a:hover img{
+    opacity: 0.7;
+}
