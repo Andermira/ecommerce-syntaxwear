@@ -9,10 +9,12 @@
 }
 .category-card {
     position: relative;
-    width: 293.7px;
+    width: 317px;
     height: 500px;
     border-radius: 15px;
     overflow: hidden;
+    display: flex;
+    flex-direction: row;
 }
 .overlay {
     position: absolute;
@@ -44,3 +46,8 @@
     background: url(../../images/products/futurista.jpg) no-repeat center;
     background-size: cover;
 }   
+@media (max-width: 500px) {
+    .category-card {
+        width: 100%;
+    }
+}
